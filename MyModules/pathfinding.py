@@ -4,7 +4,7 @@ import heapq
 def bfs(grid, start_pos, target_pos, directions, obstacles=[]):
 
     '''
-    Breadth First Search (BFS)
+    Breadth First Search (BFS):
     - Unweighted graphs.
     - With or without obstacles.
     '''
@@ -45,7 +45,7 @@ def bfs(grid, start_pos, target_pos, directions, obstacles=[]):
 def astar(grid, start_pos, target_pos, directions, obstacles=[]):
     
     '''
-    A*
+    A*:
     - Weighted or uneighted graphs.
     - With or without obstacles.
     - Heuristic-based search.
@@ -97,7 +97,7 @@ def astar(grid, start_pos, target_pos, directions, obstacles=[]):
 def dijkstra(grid, start_pos, target_pos, directions, obstacles=[]):
 
     '''
-    Dijkstra
+    Dijkstra:
     - Weighted (non-negative) graphs.
     - With or without obstacles.
     - Similar to A* except without heuristic-based search.
